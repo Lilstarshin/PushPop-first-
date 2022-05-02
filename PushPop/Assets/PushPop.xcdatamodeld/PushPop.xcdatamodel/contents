@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="20086" systemVersion="21E258" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="Contents" representedClassName="ContentsMO" syncable="YES" codeGenerationType="class">
+        <attribute name="channelId" optional="YES" attributeType="String"/>
+        <attribute name="contentId" optional="YES" attributeType="String"/>
+        <attribute name="likeCount" optional="YES" attributeType="Integer 16" defaultValueString="0" usesScalarValueType="YES"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="SubscriptionInfo" representedClassName="SubscriptionInfoMO" syncable="YES" codeGenerationType="class">
+        <attribute name="channelDescription" optional="YES" attributeType="String"/>
+        <attribute name="channelId" optional="YES" attributeType="String"/>
+        <attribute name="lastUpdate" optional="YES" attributeType="Date" usesScalarValueType="NO"/>
+        <attribute name="thumbnail" optional="YES" attributeType="String"/>
+        <attribute name="title" optional="YES" attributeType="String"/>
+    </entity>
+    <entity name="UserInfo" representedClassName="UserInfoMO" syncable="YES" codeGenerationType="class">
+        <attribute name="accessToken" optional="YES" attributeType="String"/>
+        <attribute name="authorization" optional="YES" attributeType="Boolean" usesScalarValueType="YES"/>
+        <attribute name="userName" optional="YES" attributeType="String"/>
+        <attribute name="userProfileImg" optional="YES" attributeType="Binary"/>
+    </entity>
+    <elements>
+        <element name="Contents" positionX="-384.45947265625" positionY="117.8577270507812" width="128" height="89"/>
+        <element name="SubscriptionInfo" positionX="-81.9765625" positionY="228.5227661132812" width="128" height="104"/>
+        <element name="UserInfo" positionX="-63" positionY="-18" width="128" height="103"/>
+    </elements>
+</model>
